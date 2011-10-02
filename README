@@ -8,7 +8,7 @@ How to use it:
 
 2. Adjust fileserver.conf configuration as per your requirement 
 
-				  OR
+			  OR
 
    Replace the existing fileserver.conf file with given file.
 
