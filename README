@@ -1,4 +1,4 @@
-This repository contains puppet module for installing Sun jdk6 on Ubuntu. This module enables unattended installation of Sun Java package agreeing to license agreement.
+This repository contains puppet module for installing Sun jdk6 on Ubuntu (LUCID). This module enables unattended installation of Sun Java package agreeing to license agreement.
 
 How to use it:
 
