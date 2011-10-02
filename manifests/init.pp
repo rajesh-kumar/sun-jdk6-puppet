@@ -4,7 +4,7 @@ class sun-jdk6 {
     source => "puppet:///etc/apt/sources.list"
   }
   
-  # Ensure we have set all configs for IDNA packages
+  # Ensure we have set all necessary repositories for LUCID
   exec {
     "apt-get update":
       path => ["/usr/sbin", "/usr/bin", "/bin", "/sbin"],
