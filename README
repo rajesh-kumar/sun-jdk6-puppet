@@ -6,13 +6,18 @@ How to use it:
 
 	include sun-jdk6
 
-2. Adjust fileserver.conf configuration as per your requirement or
+2. Adjust fileserver.conf configuration as per your requirement 
+
+				  OR
 
    Replace the existing fileserver.conf file with given file.
 
-3. Keep given "etc" folder structure on your puppet file server as
-   per your above custom configuration or
+3. Copy given "etc" folder structure on your puppet file server as
+   per your above custom fileserver.conf configuration 
+	
+                          OR
 
-   Copy the whole "etc" folder under your /opt folder on file server.
+   Copy the whole "etc" folder under your /opt folder on file server
+   if you are using give fileserver.conf file.
 
 
