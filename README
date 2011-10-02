@@ -1,0 +1,18 @@
+This repository contains puppet module for installing Sun jdk6 on Ubuntu. This module enables unattended installation of Sun Java package agreeing to license agreement.
+
+How to use it:
+
+1. Import this project in your puppet master machine module.
+
+	include sun-jdk6
+
+2. Adjust fileserver.conf configuration as per your requirement or
+
+   Replace the existing fileserver.conf file with given file.
+
+3. Keep given "etc" folder structure on your puppet file server as
+   per your above custom configuration or
+
+   Copy the whole "etc" folder under your /opt folder on file server.
+
+
